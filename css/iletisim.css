@@ -1,3 +1,29 @@
 .footer {width:100%; height: 100px; background-color: #1c73adf5;  margin-top:40px; float: left; }
-.iletisim {width:100%; height: 50%; margin-top: 40px; margin-left:5%;}
-.iletisim img {width:30%; height: 100%;}
+.iletisim {width:100%; height: 50%; margin-top: 40px; margin-left:5%; }
+.iletisim img {width:30%; height: 100%; float: left; }
+.iletisimadresi{font-size:40px; text-align: center;  float: left; width: 68%; margin-top: 8%;}
+.gmail{font-size:25px; margin-top:20px;} 
+.instagram{font-size: 25px;  margin-top: 20px; }
+
+@media only screen and (max-width:930px)
+{
+    .iletisimadresi {font-size:30px;}
+    .gmail {font-size: 18px;}
+    .instagram {font-size:18px;}
+}
+@media only screen and (max-width:655px)
+{   
+    .iletisimadresi {font-size:25px;}
+    .gmail {font-size: 18px; margin-top: 0px;}
+    .instagram {font-size:18px; margin-top: 0px;}
+}
+@media only screen and (max-width:520px)
+{   
+    .iletisimadresi {font-size:20px;}
+    .gmail {font-size: 15px; margin-top: 0px;}
+    .instagram {font-size:15px; margin-top: 0px;}
+}
+@media only screen and (max-width:350px)
+{
+    .iletisimadresi {margin-top:10px}
+}
